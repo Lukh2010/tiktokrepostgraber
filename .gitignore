@@ -1,0 +1,20 @@
+# Sensitive browser session & cookies (DO NOT COMMIT!)
+browser_profile/
+*.sqlite
+*.sqlite-*
+
+# API Keys & Secrets
+.env
+*.env
+
+# Local Cache & Scraped Data
+captures/
+*.png
+*.jpg
+*.json
+!example_*.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
